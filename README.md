@@ -7,7 +7,7 @@ The lytic population model was used to approximate the host-phage interaction wi
 
 A susceptible algal host population is defined as:
 
-$$\frac{dA_S}{dt} = μA_S-φ_S A_S V$$
+$$\frac{dA_S}{dt} = μA_S-φ_S A_S V + lamb*I*(1-Pr_S)$$
 
 where $μ$ is the algal host growth rate (day-1), $A_S$ is the susceptible algal host (cells mL-1), $φ_S$ is the viral infection rate of the susceptible algal host (mL virus-1 day-1), and $V$ is the abundance of free phage (virus mL-1). 
 
