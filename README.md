@@ -13,22 +13,22 @@ where $μ$ is the algal host growth rate (day-1), $A_S$ is the susceptible algal
 
 $$\frac{dI_S}{dt}=φ_S A_S V- λ_S I_S$$
 
-$$\frac{dV}{dt}=β_S λ_S I_S  - φ_S A_S V$$
+$$\frac{dV}{dt}=β_S λ_S I_S P_{R,S} - φ_S A_S V$$
 
 
 **Resistant Subpopulation Model**
 ----------------------------------
 The resistant subpopulation model assumed the presence of a small initial subpopulation of resistant hosts to a given phage within a culture dominated by susceptible hosts. 
 
-$$\frac{dA_S}{dt} = μA_S-φ_S A_S V$$
+$$\frac{dA_S}{dt} = μA_S-φ_S A_S V + λ_S I_S (1-P_{R,S})$$
 
-$$\frac{dA_R}{dt}= μA_R- φ_R A_R V$$
+$$\frac{dA_R}{dt}= μA_R- φ_R A_R V + λ_R I_R (1-P_{R,R})$$
 
 $$\frac{dI_S}{dt}=φ_S A_S V- λ_S I_S$$
 
 $$\frac{dI_R}{dt}=φ_R A_R V- λ_R I_R$$
 
-$$\frac{dV}{dt}=β_S λ_S I_S+ β_R λ_R I_R-(φ_S A_S+φ_R A_R)V$$
+$$\frac{dV}{dt}=β_S λ_S I_S P_{R,S}+ β_R λ_R I_R P_{R,R}-(φ_S A_S+φ_R A_R)V$$
 
 **Installation**
 --------------------------------------------------------------------
