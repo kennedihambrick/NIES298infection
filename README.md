@@ -33,7 +33,7 @@ $$\frac{dA_S}{dt} = μA_S-φ_S A_S V + λ_S I_S (1-P_{R,S})$$
 
 $$\frac{dA_R}{dt}= μA_R- φ_R A_R V + λ_R I_R (1-P_{R,R})$$
 
-where $$A_R$$ is the resistant algal host (cells mL<sup>-1</sup>) and $$φ_R$$ is the viral infection rate of the resistant algal host (mL virus<sup>-1</sup> day<sup>-1</sup>). Lysis of an infected resistant algal host (cells mL<sup>-1</sup>) proceeds with lysis rate λ_R (day<sup>-1</sup>) and the proportion of lysis events leading to host recovery is $$(1-P_{R,R}$$).
+where $$A_R$$ is the resistant algal host (cells mL<sup>-1</sup>) and $$φ_R$$ is the viral infection rate of the resistant algal host (mL virus<sup>-1</sup> day<sup>-1</sup>). Lysis of an infected resistant algal host (cells mL<sup>-1</sup>) proceeds with lysis rate $$λ_R$$ (day<sup>-1</sup>) and the proportion of lysis events leading to host recovery is $$(1-P_{R,R}$$).
 
 A mass balance population of infected host cells derived from the resistant host population is defined as:
 
