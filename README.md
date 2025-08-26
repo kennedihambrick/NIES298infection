@@ -9,19 +9,19 @@ A susceptible host population mass balance is defined as the difference between 
 
 $$\frac{dA_S}{dt} = μA_S-φ_S A_S V + λ_S I_S (1-P_{R,S})$$
 
-where μ is the algal host growth rate (day<sup>-1</sup>), $$A_S$$ is the susceptible algal host (cells mL<sup>-1</sup>), 〖 φ〗_S is the viral infection rate of the susceptible algal host (mL virus<sup>-1</sup> day<sup>-1</sup>), and V is the abundance of free phage (virus mL<sup>-1</sup>). Lysis of an infected susceptible host population IS (cells mL<sup>-1</sup>) proceeds with lysis rate λ_S (day<sup>-1</sup>) and the proportion of lysis events that fail leading to recovery is represented by 〖(1- P〗_(R,S)). . 
+where μ is the algal host growth rate (day<sup>-1</sup>), $$A_S$$ is the susceptible algal host (cells mL<sup>-1</sup>), $$φ_S$$ is the viral infection rate of the susceptible algal host (mL virus<sup>-1</sup> day<sup>-1</sup>), and V is the abundance of free phage (virus mL<sup>-1</sup>). Lysis of an infected susceptible host population $$I_S$$ (cells mL<sup>-1</sup>) proceeds with lysis rate $$λ_S$$ (day<sup>-1</sup>) and the proportion of lysis events that fail leading to recovery is represented by (1- $$P_(R,S)$$). . 
 
 A mass balance of infected host cells is defined as:
 
 $$\frac{dI_S}{dt}=φ_S A_S V- λ_S I_S$$
 
-where λ_S  is the infected susceptible host lysis rate (day<sup>-1</sup>) and IS is the infected susceptible algal host (cells mL<sup>-1</sup>). 
+where $$λ_S$$  is the infected susceptible host lysis rate (day<sup>-1</sup>) and $$I_S$$ is the infected susceptible algal host (cells mL<sup>-1</sup>). 
 
 Lastly, a population of free virus can be described as:
 
 $$\frac{dV}{dt}=β_S λ_S I_S P_{R,S} - φ_S A_S V$$
 
-where〖 β〗_Sis the burst size of phage from the infected susceptible host (virus cell<sup>-1</sup>). 
+where $$β_S$$ is the burst size of phage from the infected susceptible host (virus cell<sup>-1</sup>). 
 
 **Resistant Subpopulation Model**
 ----------------------------------
@@ -33,7 +33,7 @@ $$\frac{dA_S}{dt} = μA_S-φ_S A_S V + λ_S I_S (1-P_{R,S})$$
 
 $$\frac{dA_R}{dt}= μA_R- φ_R A_R V + λ_R I_R (1-P_{R,R})$$
 
-where A_R is the resistant algal host (cells mL<sup>-1</sup>) and φ_R is the viral infection rate of the resistant algal host (mL virus<sup>-1</sup> day<sup>-1</sup>). Lysis of an infected resistant algal host (cells mL<sup>-1</sup>) proceeds with lysis rate λ_R (day<sup>-1</sup>) and the proportion of lysis events leading to host recovery is (1-P_(R,R)).
+where $$A_R$$ is the resistant algal host (cells mL<sup>-1</sup>) and $$φ_R$$ is the viral infection rate of the resistant algal host (mL virus<sup>-1</sup> day<sup>-1</sup>). Lysis of an infected resistant algal host (cells mL<sup>-1</sup>) proceeds with lysis rate λ_R (day<sup>-1</sup>) and the proportion of lysis events leading to host recovery is (1-$$P_(R,R)$$).
 
 A mass balance population of infected host cells derived from the resistant host population is defined as:
 
@@ -41,13 +41,13 @@ $$\frac{dI_S}{dt}=φ_S A_S V- λ_S I_S$$
 
 $$\frac{dI_R}{dt}=φ_R A_R V- λ_R I_R$$
 
-where λ_R is the infected resistant host lysis rate (day<sup>-1</sup>) and IR is the infected resistant algal host (cells mL<sup>-1</sup>). 
+where $$λ_R$$ is the infected resistant host lysis rate (day<sup>-1</sup>) and $$I_R$$ is the infected resistant algal host (cells mL<sup>-1</sup>). 
 
 Finally, a mass balance of free virus can be described as:
 
 $$\frac{dV}{dt}=β_S λ_S I_S P_{R,S}+ β_R λ_R I_R P_{R,R}-(φ_S A_S+φ_R A_R)V$$
 
-where〖 β〗_(R )is the phage burst size from the infected resistant host (virus cell<sup>-1</sup>). 
+where $$β_R$$ is the phage burst size from the infected resistant host (virus cell<sup>-1</sup>). 
 
 **Installation**
 --------------------------------------------------------------------
