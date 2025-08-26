@@ -9,7 +9,7 @@ A susceptible host population mass balance is defined as the difference between 
 
 $$\frac{dA_S}{dt} = μA_S-φ_S A_S V + λ_S I_S (1-P_{R,S})$$
 
-where μ is the algal host growth rate (day<sup>-1</sup>), A_S is the susceptible algal host (cells mL<sup>-1</sup>), 〖 φ〗_S is the viral infection rate of the susceptible algal host (mL virus<sup>-1</sup> day<sup>-1</sup>), and V is the abundance of free phage (virus mL<sup>-1</sup>). Lysis of an infected susceptible host population IS (cells mL<sup>-1</sup>) proceeds with lysis rate λ_S (day<sup>-1</sup>) and the proportion of lysis events that fail leading to recovery is represented by 〖(1- P〗_(R,S)). . 
+where μ is the algal host growth rate (day<sup>-1</sup>), $$A_S$$ is the susceptible algal host (cells mL<sup>-1</sup>), 〖 φ〗_S is the viral infection rate of the susceptible algal host (mL virus<sup>-1</sup> day<sup>-1</sup>), and V is the abundance of free phage (virus mL<sup>-1</sup>). Lysis of an infected susceptible host population IS (cells mL<sup>-1</sup>) proceeds with lysis rate λ_S (day<sup>-1</sup>) and the proportion of lysis events that fail leading to recovery is represented by 〖(1- P〗_(R,S)). . 
 
 A mass balance of infected host cells is defined as:
 
