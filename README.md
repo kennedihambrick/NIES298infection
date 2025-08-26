@@ -15,7 +15,7 @@ A mass balance of infected host cells is defined as:
 
 $$\frac{dI_S}{dt}=φ_S A_S V- λ_S I_S$$
 
-where λ_S  is the infected susceptible host lysis rate (day^-1) and IS is the infected susceptible algal host (cells mL-1). 
+where λ_S  is the infected susceptible host lysis rate ($$day^-1$$) and IS is the infected susceptible algal host (cells mL-1). 
 
 Lastly, a population of free virus can be described as:
 
