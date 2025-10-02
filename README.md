@@ -59,4 +59,4 @@ git clone https://github.com/kennedihambrick/NIES298infection.git
 
 cd NIES298infection/
 
-pip install .
+pip install -r requirements.txt
